@@ -1,0 +1,113 @@
+.hola::before{content:":smile:";padding-left:10px;
+font-weight:200;font-family: Arial, Helvetica, san7s-serif;font-size: 5em;
+color:red}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+  }
+  
+  header {
+    background-image:url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/05/333750-concurso-x-men-dias-futuro-pasado.jpg?tf=1200x);
+    background-size: cover ;
+    height:700px ;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+  padding: 20px;}
+
+  header h1 {
+    color: white;
+    text-align: start;
+    font-size: 2em;}
+
+  
+  nav {
+    background-color: #333;
+  }
+  nav ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;align-items:center;
+    color: white;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+    margin :20px ;padding: 10px;
+  }
+  button {background-color:aqua;
+  padding: 10px 10px; border-bottom: 6px;border-color: black;
+border-radius: 18px}
+button h2 { background-color: orangered;border: 10px 14px;
+justify-items: center;}
+button h2:hover{text-decoration-color: blue;}
+  nav a:hover {background-color: greenyellow;
+    padding: 20px 0px;
+    color: white;
+    text-decoration-color: red;
+  }
+  
+  /*HOVER Y FOCUS AL NAV */
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 10px;
+    height: 400px;
+  }
+  
+  section h2:hover {text-decoration-color: blue;
+    text-align:center;justify-content: center;
+    margin-bottom: 10px 10px;color: aqua
+  }
+  
+  section ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  section li {
+    margin: 0 10px;
+    list-style-type: none;
+  }
+  
+  /* SUSITUIR EL PUNTO DE LA LISTA POR LA X */
+  
+  section a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.2em;
+  }
+  
+  /* AÑADIR CORCHETES A LOS ENLACES */
+  
+  /* AÑADIR HOVER A LOS ENLACES */
+  
+  /* AÑADIR FOCUS A LOS ENLACES */
+  
+  footer {
+    background-color: #333;
+    border-image: round;
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+.pepa
+{color: red}
+  footer p {
+    margin: 0;
+    font-size: 0.8em;
+  }
